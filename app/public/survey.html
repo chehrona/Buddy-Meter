@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buddy Meter</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" crossorigin="anonymous"/>
+</head>
+<body>
+    <div id="titleBorder">
+        <div id="title">Buddy Meter</div>
+    </div>
+    <div id="nameGetter">
+        <label for="fname" id="nameLabel">Name</label>
+        <input type="text" id="nameValue" name="fname" required>
+    </div>
+    <div id="imgGetter">
+        <label for="img" id="imgLabel">Photo Link</label>
+        <input type="url" id="imgLink" name="img" placeholder="https://example.com/image.png" pattern="https://.*" required>
+    </div>
+    <div id="surveyBorder">
+        <div class="borderBox">
+            <div id="questionMark" class="scaleValue"><i class="fa-solid fa-question"></i></div>
+            <div id="questions" class="scaleLabel">Questions</div>
+            <div class="questions">Thinks cats are better than dogs</div>
+            <div class="questions">Prefers staying in instead of a night out</div>
+            <div class="questions">Prefers hot weather over cold</div>
+            <div class="questions">Enjoys hiking and outdoors</div>
+            <div class="questions">Loves sitcoms and hates horror movies</div>
+            <div class="questions">Do you think hobbies are important?</div>
+            <div class="questions">Do you believe in manifesting your goals?</div>
+            <div class="questions">Does love at first sight exist?</div>
+            <div class="questions">Do you believe in luck?</div>
+            <div class="questions">Running is the best meditation</div>
+        </div>
+        <div class="borderBox">
+            <div class="scaleValue">1</div>
+            <div id="scaleOne" class="scaleLabel">Strongly Disagree</div>
+            <div class="answers"><input type="radio" class="scales answerOne" name="answerOne" value="1" required></div>
+            <div class="answers"><input type="radio" class="scales answerTwo" name="answerTwo" value="1" required></div>
+            <div class="answers"><input type="radio" class="scales answerThree" name="answerThree" value="1" required></div>
+            <div class="answers"><input type="radio" class="scales answerFour" name="answerFour" value="1" required></div>
+            <div class="answers"><input type="radio" class="scales answerFive" name="answerFive" value="1" required></div>
+            <div class="answers"><input type="radio" class="scales answerSix" name="answerSix" value="1" required></div>
+            <div class="answers"><input type="radio" class="scales answerSeven" name="answerSeven" value="1" required></div>
+            <div class="answers"><input type="radio" class="scales answerEight" name="answerEight" value="1" required></div>
+            <div class="answers"><input type="radio" class="scales answerNine" name="answerNine" value="1" required></div>
+            <div class="answers"><input type="radio" class="scales answerTen" name="answerTen" value="1" required></div>
+        </div>
+        <div class="borderBox">
+            <div class="scaleValue">2</div>
+            <div id="scaleTwo" class="scaleLabel">Disagree</div>
+            <div class="answers"><input type="radio" class="scales answerOne" name="answerOne" value="2" required></div>
+            <div class="answers"><input type="radio" class="scales answerTwo" name="answerTwo" value="2" required></div>
+            <div class="answers"><input type="radio" class="scales answerThree" name="answerThree" value="2" required></div>
+            <div class="answers"><input type="radio" class="scales answerFour" name="answerFour" value="2" required></div>
+            <div class="answers"><input type="radio" class="scales answerFive" name="answerFive" value="2" required></div>
+            <div class="answers"><input type="radio" class="scales answerSix" name="answerSix" value="2" required></div>
+            <div class="answers"><input type="radio" class="scales answerSeven" name="answerSeven" value="2" required></div>
+            <div class="answers"><input type="radio" class="scales answerEight" name="answerEight" value="2" required></div>
+            <div class="answers"><input type="radio" class="scales answerNine" name="answerNine" value="2" required></div>
+            <div class="answers"><input type="radio" class="scales answerTen" name="answerTen" value="2" required></div>
+        </div>
+        <div class="borderBox">
+            <div class="scaleValue">3</div>
+            <div id="scaleThree" class="scaleLabel">Neutral</div>
+            <div class="answers"><input type="radio" class="scales answerOne" name="answerOne" value="3" required></div>
+            <div class="answers"><input type="radio" class="scales answerTwo" name="answerTwo" value="3" required></div>
+            <div class="answers"><input type="radio" class="scales answerThree" name="answerThree" value="3" required></div>
+            <div class="answers"><input type="radio" class="scales answerFour" name="answerFour" value="3" required></div>
+            <div class="answers"><input type="radio" class="scales answerFive" name="answerFive" value="3" required></div>
+            <div class="answers"><input type="radio" class="scales answerSix" name="answerSix" value="3" required></div>
+            <div class="answers"><input type="radio" class="scales answerSeven" name="answerSeven" value="3" required></div>
+            <div class="answers"><input type="radio" class="scales answerEight" name="answerEight" value="3" required></div>
+            <div class="answers"><input type="radio" class="scales answerNine" name="answerNine" value="3" required></div>
+            <div class="answers"><input type="radio" class="scales answerTen" name="answerTen" value="3" required></div>
+        </div>
+        <div class="borderBox">
+            <div class="scaleValue">4</div>
+            <div id="scaleFour" class="scaleLabel">Agree</div>
+            <div class="answers"><input type="radio" class="scales answerOne" name="answerOne" value="4" required></div>
+            <div class="answers"><input type="radio" class="scales answerTwo" name="answerTwo" value="4" required></div>
+            <div class="answers"><input type="radio" class="scales answerThree" name="answerThree" value="4" required></div>
+            <div class="answers"><input type="radio" class="scales answerFour" name="answerFour" value="4" required></div>
+            <div class="answers"><input type="radio" class="scales answerFive" name="answerFive" value="4" required></div>
+            <div class="answers"><input type="radio" class="scales answerSix" name="answerSix" value="4" required></div>
+            <div class="answers"><input type="radio" class="scales answerSeven" name="answerSeven" value="4" required></div>
+            <div class="answers"><input type="radio" class="scales answerEight" name="answerEight" value="4" required></div>
+            <div class="answers"><input type="radio" class="scales answerNine" name="answerNine" value="4" required></div>
+            <div class="answers"><input type="radio" class="scales answerTen" name="answerTen" value="4" required></div>
+        </div>
+        <div class="borderBox">
+            <div class="scaleValue">5</div>
+            <div id="scaleFive" class="scaleLabel">Strongly Agree</div>
+            <div class="answers"><input type="radio" class="scales answerOne" name="answerOne" value="5" required></div>
+            <div class="answers"><input type="radio" class="scales answerTwo" name="answerTwo" value="5" required></div>
+            <div class="answers"><input type="radio" class="scales answerThree" name="answerThree" value="5" required></div>
+            <div class="answers"><input type="radio" class="scales answerFour" name="answerFour" value="5" required></div>
+            <div class="answers"><input type="radio" class="scales answerFive" name="answerFive" value="5" required></div>
+            <div class="answers"><input type="radio" class="scales answerSix" name="answerSix" value="5" required></div>
+            <div class="answers"><input type="radio" class="scales answerSeven" name="answerSeven" value="5" required></div>
+            <div class="answers"><input type="radio" class="scales answerEight" name="answerEight" value="5" required></div>
+            <div class="answers"><input type="radio" class="scales answerNine" name="answerNine" value="5" required></div>
+            <div class="answers"><input type="radio" class="scales answerTen" name="answerTen" value="5" required></div>
+        </div>
+    </div>  
+    <div id="submitButton">Submit</div>
+    <div class="popup inactive">
+        <div id="popupContent">Your best friend is:</div>
+        <div id="friendName">Chehrona</div>
+        <img id="friendPhoto" src="#">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $("#submitButton").on("click", function(e) {
+            
+            // Error checks for early return
+            if ($(".scales:checked").length < 10 || $("#nameValue").val() == "" || $("#imgLink").val() == "") {
+                alert("Please enter all the requested information and check the answers");
+                return;
+            }
+
+            let scoresArr = [$("input[type='radio'][name='answerOne']:checked").val(), 
+                            $("input[type='radio'][name='answerTwo']:checked").val(),
+                            $("input[type='radio'][name='answerThree']:checked").val(),
+                            $("input[type='radio'][name='answerFour']:checked").val(),
+                            $("input[type='radio'][name='answerFive']:checked").val(),
+                            $("input[type='radio'][name='answerSix']:checked").val(),
+                            $("input[type='radio'][name='answerSeven']:checked").val(),
+                            $("input[type='radio'][name='answerEight']:checked").val(),
+                            $("input[type='radio'][name='answerNine']:checked").val(),
+                            $("input[type='radio'][name='answerTen']:checked").val()];
+            // console.log(scoresArr);
+
+            let newUser = {
+                name: $("#nameValue").val(),
+                photo: $("#imgLink").val(),
+                scores: scoresArr
+            }
+
+            $("input").val("");
+            $(".scales").prop('checked', false);
+        
+
+            $.get("/api/friends", function(data) {
+                let bestOne = 0;
+                let bestOneID = 0;
+                let worstMatch = 40;
+                let totalMatch = 0;
+                for (let i = 0; i < data.length; i++) {
+                    for (let j = 0; j < 10; j++) {
+                        totalMatch += Math.abs(parseInt(newUser.scores[j]) - parseInt(data[i].scores[j]));
+                        if (totalMatch < worstMatch) {
+                            bestOne = totalMatch;
+                            bestOneID = i;
+                        }
+                    }
+                }
+                createsModals(data, bestOneID);
+                
+            });
+
+            
+
+            $.post("/api/friends", newUser).then(function(data) {
+                console.log("A new friend has been aded:", data);
+            });
+        });
+
+
+        let createsModals = function(obj, id) {
+            $("#surveyBorder").addClass("disabled");
+            $(".popup").removeClass("inactive");
+            $(".popup").addClass("active");
+            $("#friendName").text(obj[id].name);
+            $("#friendPhoto").attr("src", obj[id].photo);
+
+            setTimeout(function() {
+                $(".popup").removeClass("active");
+                $(".popup").addClass("inactive");
+                $("#surveyBorder").removeClass("disabled");
+            }, 3000);
+
+
+    };
+
+    </script>
+</body>
+</html>

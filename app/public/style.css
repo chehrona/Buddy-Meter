@@ -1,0 +1,225 @@
+body {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#titleBorder {
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 26px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    margin-top: 1%;
+}
+
+#title {
+    font-size: 34px;
+    color: navy;
+    text-shadow: 0px 0px 10px lightgray;
+    font-weight: 700;
+}
+
+#surveyBorder {
+    border: 1px solid lightgray;
+    margin: 5%;
+    margin-top: 1%;
+    display: flex;
+}
+
+.borderBox {
+    border-right: 1px solid lightgray;
+    width: calc(100%/6);
+}
+
+.borderBox:last-child {
+    border-right: none;
+}
+
+.scales:first-child {
+    margin-top: 0px;
+}
+
+.scales {
+    margin-top: 10px;
+}
+
+.questions {
+    border: 1px solid rgb(150, 206, 243);
+    background-color: rgb(150, 206, 243);
+    border-radius: 5px;
+    margin: 5px;
+    text-align: left;
+    padding: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.scaleValue {
+    background-color: rgb(150, 206, 243);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.scaleLabel {
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#questionMark {
+    background-color: white;
+}
+
+#questions {
+    background-color: rgb(2, 2, 72);
+    border-radius: 5px;
+}
+
+#scaleOne {
+    background-color: rgb(187, 41, 41);
+    border-radius: 5px;
+}
+
+#scaleTwo {
+    background-color: rgb(231, 99, 43);
+    border-radius: 5px;
+}
+
+#scaleThree {
+    background-color: rgb(226, 196, 62);
+    border-radius: 5px;
+}
+
+#scaleFour {
+    background-color: rgb(27, 224, 93);
+    border-radius: 5px;
+}
+
+#scaleFive {
+    background-color: rgb(9, 103, 36);
+    border-radius: 5px;
+}
+
+.answers {
+    border-bottom: 1px solid lightgray;
+    display: block;
+    padding: 8px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.answers:last-child {
+    border-bottom: none;
+}
+
+input {
+    margin-top: 5px;
+}
+
+#submitButton {
+    background-color: rgb(150, 206, 243);
+    width: 100px;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: 28px;
+}
+
+#submitButton:hover {
+    cursor: pointer;
+    background-color: rgb(2, 2, 72);
+    color: white;
+}
+
+#nameGetter {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+#imgGetter {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+#nameLabel {
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+#imgLink {
+    width: 86%;
+    height: 24px;
+    font-size: 18px;
+    padding: 3px;
+}
+
+#nameValue {
+    width: 100%;
+    height: 24px;
+    font-size: 18px;
+    padding: 3px;
+}
+
+#imgLabel {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.disabled {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.active {
+    display: block;
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 440px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#popupContent {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#friendName {
+    margin-top: 10px;
+    font-size: 28px;
+    color: rgb(231, 99, 43);
+}
+
+#friendPhoto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 280px;
+}
+
+.inactive {
+    display: none;
+}
