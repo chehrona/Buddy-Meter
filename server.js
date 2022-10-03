@@ -1,6 +1,6 @@
 let express = require("express");
 let path = require("path");
-let PORT = process.env.PORT || 5001;
+let PORT = process.env.PORT || 3000;
 let apiRoutes = require("./app/routing/apiRoutes");
 let htmlRoutes = require("./app/routing/htmlRoutes");
 
